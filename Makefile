@@ -26,7 +26,7 @@ build: ## Build All
 	@printf "\n\033[92mBuild Docker Image: all\033[0m\n"
 
 
-build_cpu: ## Build HSR Humble [CPU] Container
+build_cpu: ## Build Humble [CPU] Container
 	docker compose  -f compose.build.yaml build hsr
 	@printf "\n\033[92mBuild Docker Image: okdhryk/ros:humble-hsr\033[0m\n"
 
